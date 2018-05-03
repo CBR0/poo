@@ -11,7 +11,15 @@ namespace ConsoleApplication4
         private int andarAtual;
         private int totalAndares;
         private bool estadoPorta;
-
+        
+        
+        private string nome;
+        //GET E SET a classe
+        public string Nome {
+            get { return nome; }
+            // VALUE é uma palavra reservada
+            set { nome = value; }
+        }
 
         private void Subir(int andarDesejado)
         {
