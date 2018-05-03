@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApplication4
-{
-    class Elevador
+{      
+    // Herança
+    public class Elevador : OutraClasse
     {
         private int andarAtual;
         private int totalAndares;
